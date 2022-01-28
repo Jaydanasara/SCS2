@@ -1,0 +1,38 @@
+.pContainer{
+width:50%;
+font-size: 1.5rem;
+border: thick solid purple;
+margin-bottom: 15px;
+padding: 15px;
+}
+
+.pWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ownerPic{
+    margin: 40px;
+    border: thin solid purple;
+    width: 200px;
+    padding:10px;
+}
+
+h6{
+    text-align: center;
+}
+
+.ownerImage{
+    max-width: 175px;
+}
+.leader{
+    margin: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.businessName{
+    font-size: 1.6rem;
+    font-weight: bold;
+}

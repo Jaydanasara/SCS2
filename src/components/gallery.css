@@ -1,0 +1,32 @@
+
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.carouselContainer{
+   margin:10px; 
+ width: 50%
+} 
+
+
+.carousel .carousel-item {
+    height:400px;
+  
+    
+  
+}
+
+.carousel-item img {
+    object-fit:cover; 
+    height:400px;
+   
+}
+
+.title{
+    color: white;
+}
