@@ -2,12 +2,12 @@
 import FrontPage from './components/FrontPage';
 import Gallery from './components/Gallery';
 import About from './components/About';
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import {HashRouter,Routes,Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">
       <div>
-      <Router>
+      <HashRouter>
         <Routes>
     <Route path ="/" element={<FrontPage/>}/>
     <Route  path ="/gallery" element={<Gallery/>}/>
@@ -15,7 +15,7 @@ function App() {
  
 
         </Routes>
-      </Router>
+      </HashRouter>
       </div>
     </div>
   );
